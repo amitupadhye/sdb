@@ -1,0 +1,7 @@
+import = [ { 
+				hdbtable = "sdb.Data::mainTable_skillsDB";
+				schema = "skillsDB";
+				file = "sdb.Data:mainTable_skillsDB.csv"; 
+				header = false;
+				
+		} ];

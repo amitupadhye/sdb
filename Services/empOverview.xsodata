@@ -1,0 +1,10 @@
+service namespace "skillsDatabse" { 
+
+"skillsDB"."EMPDETAILS"
+
+      as "empOverview" key ("employeeID");
+      
+      } 
+
+
+

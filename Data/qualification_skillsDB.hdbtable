@@ -1,0 +1,10 @@
+table.schemaName = "skillsDB";
+table.tableType = COLUMNSTORE;
+table.columns = [ 	
+					{name = "objectID"; sqlType = VARCHAR; length = 15; nullable = false;comment = "objectID";},
+					{name = "abbreviation"; sqlType = SHORTTEXT; length = 100; nullable = false;comment = "abbreviation";},
+					{name = "name"; sqlType = SHORTTEXT; length = 100; nullable = false;comment = "name";},
+					{name = "searchterm"; sqlType = SHORTTEXT; length = 200; nullable = false;comment = "searchterm";}					  
+						  
+				];
+table.primaryKey.pkcolumns = ["objectID"] ;

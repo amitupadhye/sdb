@@ -1,0 +1,9 @@
+service namespace "skillsDatabse" { 
+
+"skillsDB"."sdb.Data::qualification_skillsDB"
+/*"skillsDB"."sortedQualifications" 
+      as "employeeQualifications" keys generate local "objectID";*/
+      
+       as "employeeQualifications";
+}
+

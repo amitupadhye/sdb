@@ -1,0 +1,6 @@
+service namespace "skillsDatabse" { 
+
+"skillsDB"."SLTVIEWFINAL" as "employeeName" keys ("EMPLOYEEID");
+
+}
+

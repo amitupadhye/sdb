@@ -1,0 +1,16 @@
+table.schemaName = "skillsDB";
+table.tableType = COLUMNSTORE;
+table.columns = [ 	
+					{name = "employeeID"; sqlType = VARCHAR; length = 10 ; nullable = false;comment = "unique identifier for an employee";},
+					{name = "name"; sqlType = SHORTTEXT; length = 100; nullable = false;comment = "employee name";},
+					{name = "startdate"; sqlType = DATE; nullable = false;comment = "employee startDate";},
+					{name = "ped_esd"; sqlType = SHORTTEXT; length = 50; nullable = false;comment = "employee ped/esd experience";},
+					{name = "role"; sqlType = SHORTTEXT; length = 50; nullable = false;comment = "employee role";},
+					{name = "technology_product"; sqlType = SHORTTEXT; length = 2000; nullable = false;comment = "technology/product skill";},
+					{name = "software_development"; sqlType = SHORTTEXT; length = 2000; nullable = false;comment = "development skills ";},
+					{name = "lead"; sqlType = SHORTTEXT; length = 100; nullable = false;comment = "employee lead";},
+					{name = "qualification"; sqlType = SHORTTEXT; length = 2000; nullable = false;comment = "employee qualification";}
+						  
+						  
+				];
+table.primaryKey.pkcolumns = ["employeeID"] ;

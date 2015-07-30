@@ -1,0 +1,10 @@
+table.schemaName = "skillsDB";
+table.tableType = COLUMNSTORE;
+table.columns = [ 	
+					{name = "ID"; sqlType = VARCHAR; length = 4 ; nullable = false;comment = "tech product ID";},
+					{name = "technology_product"; sqlType = SHORTTEXT; length = 100; nullable = false;comment = "technology_product name";}
+					
+										  
+						  
+				];
+table.primaryKey.pkcolumns = ["ID"] ;

@@ -1,0 +1,10 @@
+table.schemaName = "skillsDB";
+table.tableType = COLUMNSTORE;
+table.columns = [ 	
+					{name = "employeeID"; sqlType = VARCHAR; length = 10 ; nullable = false;comment = "unique identifier for an employee";},
+					{name = "employeename"; sqlType = SHORTTEXT; length = 100; nullable = false;comment = "employee name";},
+					{name = "teamname"; sqlType = SHORTTEXT; length = 100; nullable = false;comment = "employee team name";}
+										  
+						  
+				];
+table.primaryKey.pkcolumns = ["employeeID"] ;

@@ -1,0 +1,8 @@
+table.schemaName = "skillsDB";
+table.tableType = COLUMNSTORE;
+table.columns = [ 	
+					{name = "ID"; sqlType = VARCHAR; length = 4 ; nullable = false;comment = "development skills ID";},
+					{name = "development_skill"; sqlType = SHORTTEXT; length = 100; nullable = false;comment = "development_skill name";}
+						  
+				];
+table.primaryKey.pkcolumns = ["ID"] ;

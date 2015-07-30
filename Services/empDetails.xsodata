@@ -1,0 +1,8 @@
+service namespace "skillsDatabse" { 
+
+"skillsDB"."sdb.Data::mainTable_skillsDB"
+
+      as "employeeDetails" ;
+
+}
+
