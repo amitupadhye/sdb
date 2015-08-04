@@ -2,6 +2,8 @@
 sdb
 # sot
 
+SAP UI5 HANA ODATA AJAX 
+
 1. My fist every try at building a webapplication 
 2. Everything is coded in to the view  not much use of controller concept
 3. There is no design to this idea 
